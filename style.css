@@ -1,16 +1,62 @@
-
-h1{
-    text-align:left;
-    font-size: 70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
-    font-weight: bold;
-    font-style: oblique;
-    margin: 100px;
-    border: 2px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
 .div{
-    border: 5px outset rgb(14, 12, 12);
-    background-color: rgb(247, 248, 248);    
-    text-align: center;
-  } 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 161, 161);
+    background-image: url(./yes.jpg);
+    
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(247, 245, 245);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.page{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.page h1{
+    font-size: 50px;
+    color: rgb(243, 238, 238);
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(221, 14, 14);
+}
+.page h2{
+    color: gray;
+    line-height: 22px;
+}
+.page a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
